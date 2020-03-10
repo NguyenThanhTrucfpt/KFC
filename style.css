@@ -1,0 +1,568 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald';
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    background-color: cornsilk;
+}
+
+.highlight {
+    color: #E7002D;
+    font-weight: bold;
+}
+
+.col-26p {
+    width: 30%;
+    float: left;
+    margin-right: 27px;
+    margin-bottom: 20px;
+}
+
+
+/* head */
+
+header {
+    width: 80%;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.head {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-color: white;
+}
+
+.head>.bars {
+    top: 0;
+}
+
+.bars {
+    position: absolute;
+    left: 29%;
+}
+
+.bars>span {
+    display: inline-block;
+    margin-left: 40px;
+    width: 40px;
+    height: 25px;
+    background-color: #E7002D;
+}
+
+img {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+}
+
+h3 {
+    position: absolute;
+    bottom: 50px;
+    right: 100px;
+}
+
+h3:hover {
+    cursor: pointer;
+}
+
+
+/* nav */
+
+nav {
+    position: absolute;
+    width: 80%;
+    height: 60px;
+    background-color: #F8F8F8;
+    text-align: center;
+}
+
+nav>ul {
+    display: block;
+}
+
+nav>ul>li {
+    display: inline-block;
+    list-style: none;
+}
+
+nav>ul>li>a {
+    display: block;
+    padding: 17px 32.8px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+nav>ul>li>.default {
+    color: white;
+    background-color: black;
+}
+
+nav>ul>li>a:hover {
+    background-color: black;
+    color: white;
+}
+
+
+/* article */
+
+main>a>img {
+    top: 0px;
+    left: 138px;
+    background-size: cover;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+article {
+    margin-top: 416px;
+    float: left;
+    width: 20%;
+    height: 1650px;
+    background-color: white;
+}
+
+h2 {
+    margin: 20px;
+    font-size: 18px;
+}
+
+h2>b {
+    font-size: 16px;
+}
+
+h2>b:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+/* aside */
+
+aside {
+    margin-top: 416px;
+    float: right;
+    width: 80%;
+    height: 1650px;
+    background: white;
+}
+
+.combo1 {
+    background-color: white;
+}
+
+h1 {
+    margin: 20px auto;
+}
+
+.product {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    border-radius: 10px 10px 0 0;
+    box-shadow: lightgray 8px 8px 20px;
+    background-color: white;
+    margin: 10px 2px;
+}
+
+.product>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.product>img {
+    cursor: pointer;
+}
+
+.product>h2 {
+    position: absolute;
+    top: 150px;
+    left: auto;
+    font-size: 22px;
+}
+
+.product>h3 {
+    position: absolute;
+    top: 220px;
+    left: 20px;
+    font-size: 18px;
+}
+
+.product>p {
+    position: absolute;
+    top: 260px;
+    left: 20px;
+    font-size: 15px;
+    color: grey;
+}
+
+.product>h4 {
+    position: absolute;
+    top: 330px;
+    left: 20px;
+    border: black 2px solid;
+    border-radius: 5px;
+    color: black;
+    font-size: 15px;
+    padding: 7px 16px;
+}
+
+.product>h4 {
+    cursor: pointer;
+}
+
+.product>h5 {
+    position: absolute;
+    top: 330px;
+    right: 20px;
+    border: #E7002D 2px solid;
+    border-radius: 5px;
+    background-color: #E7002D;
+    color: white;
+    font-size: 15px;
+    padding: 7px 22px;
+}
+
+.product>h5 {
+    cursor: pointer;
+}
+
+
+/* ket thuc main */
+
+.ketthuc {
+    clear: both;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.ketthuc>.hinh1 {
+    position: absolute;
+    left: 0;
+    width: 497px;
+    height: 172px;
+}
+
+.ketthuc>.hinh1 {
+    cursor: pointer;
+}
+
+.ketthuc>.hinh2 {
+    position: absolute;
+    left: 582px;
+}
+
+.ketthuc>.hinh2 {
+    cursor: auto;
+}
+
+
+/* footer */
+
+footer {
+    width: 100%;
+    height: 400px;
+    background-color: #F8F8F8;
+}
+
+footer>.container {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+
+footer>.container>ul>li {
+    list-style: none;
+    line-height: 25px;
+}
+
+footer>.container>ul>li>a {
+    text-decoration: none;
+    color: black;
+}
+
+footer>.container>img {
+    position: absolute;
+    width: 35%;
+    top: 50px;
+    left: 350px;
+}
+
+footer>.container>.col-1 {
+    width: 250px;
+    height: 50px;
+    position: absolute;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 17px;
+    line-height: 0;
+    top: 180px;
+    left: 0;
+}
+
+footer>.container a:hover {
+    color: #E7002D;
+}
+
+footer>.container>.col-2 {
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    font-size: 17px;
+    line-height: 0;
+    top: 180px;
+    left: 270px;
+}
+
+footer>.container>.col-3 {
+    width: 230px;
+    height: 20px;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    font-size: 17px;
+    line-height: 0;
+    top: 180px;
+    left: 480px;
+}
+
+footer>.container li>a {
+    padding: 13px;
+}
+
+footer>.container>.col-4 {
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    font-size: 17px;
+    line-height: 0;
+    top: 180px;
+    left: 720px;
+}
+
+footer>.container>h3 {
+    position: absolute;
+    top: 270px;
+    left: 733px;
+    font-weight: bolder;
+    font-size: 17px;
+}
+
+footer>.container>#email {
+    position: absolute;
+    top: 300px;
+    left: 733px;
+    right: 10px;
+    width: 212px;
+    height: 45px;
+    padding-left: 20px;
+    border: none;
+    border-radius: 7px;
+    box-shadow: lightgrey 8px 8px 10px;
+}
+
+footer>.container>button {
+    position: absolute;
+    top: 300px;
+    right: 0;
+    width: 100px;
+    height: 45px;
+    background-color: #E7002D;
+    color: white;
+    font-weight: bolder;
+    font-size: 14px;
+    border-radius: 7px;
+    box-shadow: none;
+}
+
+footer>.container>button:hover {
+    cursor: pointer;
+}
+
+footer>.container>.bars {
+    position: absolute;
+    top: 373px;
+    /* bottom: 0; */
+}
+
+
+/* lienhe */
+
+.lienhe {
+    width: 80%;
+    height: 2150px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.lienhe>h1 {
+    padding-top: 70px;
+    padding-bottom: 10px;
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+.lienhe>.hinh {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    margin: 30px 0;
+}
+
+.lienhe>.hinh>a>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.lienhe>.hinh>.kfc {
+    position: absolute;
+    width: 230px;
+    height: 70px;
+    padding-top: 5px;
+    background-color: #E7002D;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    box-shadow: black 5px 5px 0;
+    bottom: 0;
+    left: 30px;
+}
+
+.lienhe>.info {
+    width: 100%;
+    height: 250px;
+    float: left;
+    margin-top: 0;
+}
+
+.lienhe>.info>.col-100 {
+    width: 41%;
+    height: 120px;
+    margin-left: 30px;
+    position: relative;
+}
+
+.lienhe>.info>.col-100>.logo,
+.col-33>.logo {
+    position: absolute;
+    left: 0;
+    top: 25px;
+}
+
+.lienhe>.info>.col-100>span,
+.col-33>span {
+    position: absolute;
+    top: 15px;
+    right: 0;
+}
+
+.lienhe>.info>.col-100>span>h5,
+.col-33>span>h5 {
+    padding-bottom: 5px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.lienhe>.info>.col-33 {
+    position: relative;
+    width: 15.4%;
+    height: 120px;
+    float: left;
+    margin: 10px 30px;
+}
+
+.lienhe>.info>.col-33:last-child {
+    width: 20%;
+}
+
+
+/* form */
+
+form {
+    width: 100%;
+    height: 1000px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 7px #ccc;
+    margin-top: 300px;
+    padding: 20px;
+}
+
+form>.name {
+    padding: 20px 0;
+    font-size: 25px;
+    color: #E7002D;
+}
+
+form>.form-group {
+    text-align: center;
+    margin-top: 20px;
+}
+
+form>.form-group>.form-control {
+    width: 350px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    margin-top: 15px;
+    padding: 10px 15px;
+    font-size: 17px;
+    color: grey;
+}
+
+.gui {
+    width: 350px;
+    height: 50px;
+    margin: 0 auto;
+    padding-top: 15px;
+    border-radius: 4px;
+    background-color: #E7002D;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nhaplai {
+    width: 350px;
+    height: 50px;
+    margin: 0 auto;
+    padding-top: 15px;
+    border: black 1px solid;
+    border-radius: 4px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+/* home */
+
+.home {
+    width: 100%;
+    height: 2050px;
+    top: 0;
+}
+
+
+/* monan */
+
+.monan {
+    width: 100%;
+    height: 2050px;
+}
